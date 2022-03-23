@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/datos.js"></script>
+
+</head>
+
+<body>
+
+
+    <div id="arriba">
+        <h1>TAREAS</h1>
+        <form>
+            <input type="text" id="inputTarea">
+            <select id="seleccionaTarea">
+                <option>Elige prioridad</option>
+                <option>urgente</option>
+                <option>diaria</option>
+                <option>mensual</option>
+                <label id=" labelTarea"></label>
+
+            </select>
+            <button type="button" id="btnAñadir">AÑADIR </button>
+        </form>
+
+    </div>
+
+    <div id="abajo">
+        <div>
+            <form>
+
+                <select id="seleccionaPrioridad">
+                    <option>Filtra prioridad</option>
+                    <option value="urgente">URGENTE</option>
+                    <option value="diaria">DIARIA</option>
+                    <option value="mensual">MENSUAL</option>
+                    <label id="labelPrioridad"></label>
+                </select>
+                <input type="text" id="filtraTexto">
+            </form>
+        </div>
+        <div id="listaTareas"> </div>
+
+    </div>
+
+
+
+    <script src="./js/funciones.js"></script>
+</body>
+
+</html>
